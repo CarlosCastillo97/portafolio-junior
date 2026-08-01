@@ -111,3 +111,48 @@ footer a {
         font-size: 1.2rem;
     }
 }
+
+#boton-tema {
+    background-color: #3766a0;
+    color: #e7e8e9;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+:root {
+    --bg-header: #1e293b;
+    --bg-principal: #0f172a;
+    --texto: #f1f5f9;
+    --bg-tarjeta: #1e293b;
+    --bg-boton: #0f172a;
+}
+
+.tema-claro {
+  --bg-header: #d8e2dc;
+  --bg-principal: #faf3f0;
+  --texto: #3d3d3d;
+  --bg-tarjeta: #f8edeb;
+  --bg-boton: #f8edeb;
+}
+
+body {
+  background-color: var(--bg-principal);
+  color: var(--texto);
+}
+
+#lista-habilidades li {
+  background-color: var(--bg-tarjeta);
+  color: var(--texto);
+}
+
+header, footer {
+  background-color: var(--bg-header);
+}
+
+#boton-tema {
+  background-color: var(--bg-boton);
+  color: var(--texto);
+}
+

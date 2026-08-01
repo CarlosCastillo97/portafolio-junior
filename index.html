@@ -10,6 +10,7 @@
   <header>
     <h1>Carlos Castillo</h1>
     <nav>
+      <button id="boton-tema"> Cambiar tema</button>
       <ul>
         <li><a href="#sobre-mi">Sobre mí</a></li>
         <li><a href="#habilidades">Habilidades</a></li>
@@ -25,16 +26,18 @@ Paralelamente, desde 2016 he sido un entusiasta del hardware: investigo componen
     </section>
     <section id="habilidades">
       <h2>Habilidades</h2>
-      <ul id="lista-habilidades">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JavaScript</li>
-        <li>Git y GitHub</li>
-        <li>Atención al cliente bilingüe</li>
-        <li>Resolución de problemas</li>
-      </ul>
+      <ul id="lista-habilidades"></ul>
     </section>
   </main>
+  <section id="mensaje">
+    <h2>Contactame</h2>
+    <form id="formulario-contacto">
+      <input type="text" id="nombre" placeholder="Tu nombre" />
+      <input type="email" id="correo" placeholder="Tu correo" />
+      <button type="submit">Enviar</button>
+    </form>
+    <p id="mensaje-error"></p>
+  </section>
   <footer id="contacto">
     <p>
       <a href="https://github.com/CarlosCastillo97" target="_blank">GitHub</a> |
