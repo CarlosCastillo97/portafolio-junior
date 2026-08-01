@@ -10,3 +10,71 @@ body {
     color: #f1f5f9;
     line-height: 1.6;
 }
+
+header {
+    background-color: #1e293b;
+    padding: 1.5rem 2rem;
+}
+
+header h1 {
+    margin-bottom: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: #60a5fa;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #60a5fa;
+    padding-bottom: 0.5rem;
+}
+
+#lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    list-style: none;
+}
+
+#lista-habilidades li {
+    background-color: #1e293b;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    font-size: 0.95rem;
+}
+
+footer {
+    background-color: #1e293b;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #60a5fa;
+    margin: 0 0.5rem;
+    text-decoration: none;
+}
