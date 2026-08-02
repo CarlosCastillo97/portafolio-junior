@@ -12,13 +12,14 @@ const listaHabilidades = document.querySelector("#lista-habilidades");
 habilidades.forEach((habilidad) => {
     const li = document.createElement("li");
     li.textContent = habilidad;
+    li.setAttribute("tabindex", "0");
     listaHabilidades.appendChild(li);
 });
 
 const formulario = document.querySelector("#formulario-contacto");
 const mensajeError = document.querySelector("#mensaje-error");
 
-formulariuo.addEventListener("submit", (evento) => {
+formulario.addEventListener("submit", (evento) => {
     evento.preventDefault();
 
     const nombre = document.querySelector("#nombre").value;
