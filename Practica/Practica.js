@@ -57,7 +57,7 @@ function contarPorLetra(comidas, a) {
   for (let i = 0; i < comidas.length; i++) {
     let inicial = comidas[i][0];
 
-    if (a === inicial) {
+    if (a.toUpperCase() === inicial.toUpperCase()) {
       contador++;
     }
   }
@@ -66,6 +66,7 @@ function contarPorLetra(comidas, a) {
 }
 
 console.log(contarPorLetra(comidas, "P"));
+console.log(contarPorLetra(comidas, "p"));
 console.log(contarPorLetra(comidas, "H"));
 console.log(contarPorLetra(comidas, "X"));
 
